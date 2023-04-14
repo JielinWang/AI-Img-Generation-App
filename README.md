@@ -4,51 +4,67 @@
 
 This web application consists on a AI Image Generation application where users can auto generate images based on their typing prompt. Utilized OpenAI API to auto generate images based on user's typing prompt. Then users can share the image to the community, which will render to the home page.
 
-
-furthermore for adding more featrues to this project I will create a user signUp and signIn page. so users can not only sign up as a regular users, but also track the food status on their own page and make a review of the food.
-
-[Food-ordering-app Presentation](https://drive.google.com/file/d/1br3lfN7TH7YVLLE79yvOUa7RXjoapOn2/view?usp=sharing)
+[AI Image Generation App](https://dall-e-bacc.onrender.com/) has been deploy online. Check it out and generate your favorite image then share!
 
 ## Functionalities
 
-- Admin Sign In
-- Add dishes to your cart by selecting a quantity, size and extras
-- Price and quantity shown in cart updates automatically
-- Check out with cash or Paypal
-- Create products by signing in as a restaurant admin
-- Upload edit or delete your restaurant products
-- Create, Edit and Delete Dishes. Including pictures, prices, size and extras
+- SurpriseMe button to give a random prompt
+- Auto genarating based on any typing prompt
+- Sharing image to the community 
+- User information of prompt and name
 
 ## How to Run
 
 Fork this repository and follow the next steps
 
 ```
-git clone git@github.com:JielinWang/Food-Ordering-App.git
+git clone git@github.com:JielinWang/AI-Img-Generation-App.git
 
-cd Food-Ordering-APP
+cd client
 
 npm install
+
+npm run dev
+
+THEN OPEN SECOND TERMINAL
+
+cd server
+
+npm install
+
+npm start
+
 ```
 
 Before running `npm run dev`, you will need the following environment variables:
 
-```
-MONGO_URL = <This is your MongoDb URI>
-ADMIN_USERNAME = <This is your ADMIN_USERNAME>
-ADMIN_PASSWORD = <This is your ADMIN_PASSWORD>
-TOKEN = <This is your TOKEN>
-Paypal: client-id =  <This is your Paypal client-id>
+
 ```
 
-Once you have set up the environment variables, you can safely run the application in your computer by running `npm run dev`. Then open [localhost:3000](http//localhost:3000) in your browser.
+MONGO_URL = <This is your MongoDb URI>
+
+OPENAI_API_KEY = <This is your OPENAI_API_KEY>
+
+CLOUDINARY_CLOUD_NAME = <This is your CLOUDINARY_CLOUD_NAME>
+
+CLOUDINARY_API_KEY = <This is your CLOUDINARY_API_KEY>
+
+CLOUDINARY_API_SECRET = <This is your CLOUDINARY_API_SECRET>
+
+```
+
+Once you have set up the environment variables, you can safely run the application in your browser.
 
 ## Tech Specifications
 
-- Framework: [NextJS](https://nextjs.org/)
+- Frameworks: [ReactJS](https://legacy.reactjs.org/)  [NodeJS](https://nodejs.org/en)   [Express](https://expressjs.com/)
 - Database: [MongoDB](https://www.mongodb.com/)
-- Secondary Storage: [cloudinary](https://imagekit.io/cloudinary-alternative/?utm_source=google&utm_medium=cpc&utm_campaign=cloudinary-alternative&gclid=Cj0KCQiAic6eBhCoARIsANlox86kTNO1sArCY3wVliofqjaKRWohCyZtsSzpvsMj2l2xeUYZDUF9nnkaAv-2EALw_wcB)
-- Payment Getaway: [Paypal](https://www.paypal.com/us/home)
-- Authorization and Authentication: [cookies](https://auth0.com/docs/manage-users/cookies)
+- Image Storage: [Cloudinary](https://imagekit.io/cloudinary-alternative/?utm_source=google&utm_medium=cpc&utm_campaign=cloudinary-alternative&gclid=Cj0KCQiAic6eBhCoARIsANlox86kTNO1sArCY3wVliofqjaKRWohCyZtsSzpvsMj2l2xeUYZDUF9nnkaAv-2EALw_wcB)
+- Tool: [ViteJS](https://vitejs.dev/)
+
+- Deployment:[Render](https://render.com/)
+- Styling: [TailwindCSS](https://tailwindcss.com/)
 
 ## Images of the App
+
+
