@@ -61,10 +61,20 @@ Once you have set up the environment variables, you can safely run the applicati
 - Database: [MongoDB](https://www.mongodb.com/)
 - Image Storage: [Cloudinary](https://imagekit.io/cloudinary-alternative/?utm_source=google&utm_medium=cpc&utm_campaign=cloudinary-alternative&gclid=Cj0KCQiAic6eBhCoARIsANlox86kTNO1sArCY3wVliofqjaKRWohCyZtsSzpvsMj2l2xeUYZDUF9nnkaAv-2EALw_wcB)
 - Tool: [ViteJS](https://vitejs.dev/)
-
 - Deployment:[Render](https://render.com/)
 - Styling: [TailwindCSS](https://tailwindcss.com/)
+- Source: [OpenAIApi](https://openai.com/)
 
 ## Images of the App
 
+HomePage <img width="1422" alt="Screenshot 2023-04-14 at 5 25 13 PM" src="https://user-images.githubusercontent.com/94776104/232165768-77404e84-911e-4d35-a782-706680e721d7.png">
 
+CreatePost Page <img width="1401" alt="Screenshot 2023-04-14 at 5 27 11 PM" src="https://user-images.githubusercontent.com/94776104/232165803-53e61753-dddd-4182-bc32-071d7140160f.png">
+
+
+## Author
+[Jielin Wang](https://www.linkedin.com/in/jielinwang-/)
+
+## License
+
+MIT License
